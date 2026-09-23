@@ -1,14 +1,86 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head >
-    <title>Geleia</title>
-<meta charset="UFT-8">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Quiz interativo sobre História da Computação e Desenvolvimento Web">
+    <title>TechQuiz - Desafio de Programação Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
 
-<!-- Cabeçalho Principal -->
-<header>
-    <div class="header-container">
-        <h1>Tech & Games Quiz</h1>
-        <p>Teste seus conhecimentos sobre o universo dos games, tecnologia e cultura pop!</p>
-    </div>
-</header>
+    <!-- Cabeçalho Principal -->
+    <header>
+        <h1>TechQuiz: Fundamentos & História da Web</h1>
+        <p>Teste seus conhecimentos em tecnologia, navegadores e desenvolvimento web!</p>
+    </header>
+    <main>
+        <!-- Seção de Instruções-->
+        <section>   
+            <h2>Instruções do Quiz</h2>
+            <p>Este quiz aborda conceitos fundamentais da <strong class="destaque">História da Computação</strong> e do <em class="destaque-sub">Desenvolvimento Web Moderno</em>.</p>
+            <p>Responda às questões abaixo e confira sua pontuação no gabarito final!</p>
+        </section>
+      
+            <!-- Pergunta 1: Múltipla Escolha -->
+                <section>
+            <h2>Pergunta 1: Qual foi o primeiro navegador web amplamente utilizado?</h2>      
+             <form>
+                <input type="radio" value="Mosaic" id="p1a" name="pergunta1">
+                <label for="p1a">Mosaic</label><br>
+                
+                <input type="radio" value="Netscape Navigator" id="p1b" name="pergunta1">              
+                <label for="p1b">Netscape Navigator</label><br>
 
+                <input type="radio" value="Internet Explorer" id="p1c" name="pergunta1">
+                <label for="p1c">Internet Explorer</label><br>
+
+                <input type="radio" value="Mozilla Firefox" id="p1d" name="pergunta1">
+                <label for="p1d">Mozilla Firefox</label><br>
+             </form>
+                </section>
+            <!-- Pergunta 2: Texto Livre-->
+                <section>
+                <h2>Pergunta 2: O que significa a sigla HTTP?</h2>
+                <form>
+                    <input type="text" id="p2" name="pergunta2" placeholder="Digite sua resposta aqui">
+                </form>
+                </section>
+            <!-- Pergunta 3: Senha-->
+                <section>
+                <h2>Pergunta 3: Escreva um exemplo de senha segura.</h2>
+                <form>
+                    <input type="text" id="p3" name="pergunta3" placeholder="Digite sua senha aqui">
+                </form>
+                </section>
+            <!-- Pergunta 4: Data--> 
+                <section>
+                <h2>Pergunta 4: Em que data o Google foi fundado?</h2>
+                <form>
+                    <input type="date" id="p4" name="pergunta4">
+                </form>
+                </section>
+            <!-- Pergunta 5: Seleção Múltipla -->
+                <section>
+                    <h2>Pergunta 5: Quais das seguintes linguagens são consideradas linguagens de programação? (selecione todas que se aplicam).</h2>
+                    <form>
+                        <input type="checkbox" value="Python" id="p5a" name="pergunta5">
+                        <label for="p5a">Python</label><br>
+
+                        <input type="checkbox" value="HTML" id="p5b" name="pergunta5">
+                        <label for="p5b">HTML</label><br>
+
+                        <input type="checkbox" value="JavaScript" id="p5c" name="pergunta5">
+                        <label for="p5c">JavaScript</label><br>
+
+                        <input type="checkbox" value="CSS" id="p5d" name="pergunta5">
+                        <label for="p5d">CSS</label><br>
+                    </form>
+                </section>
+               
+                
+        
+    </main>
+        <footer></footer>
+    </body>
+</html>
