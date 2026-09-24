@@ -77,10 +77,106 @@
                         <label for="p5d">CSS</label><br>
                     </form>
                 </section>
-               
-                
-        
+            <!--Pergunta 6: Upload de Arquivo-->
+                <section>
+                    <h2>Pergunta 6: Faça o upload de um arquivo de HTML.</h2>
+                    <form>
+                        <input type="file" id="p6" name="pergunta6" accept=".html">
+                    </form>
+                </section>
+            <!-- Pergunta 7: Menu Suspenso -->
+                <section>
+                    <h2>Pergunta 7: Selecione o sistema operacional mais utilizado para desenvolvimento web.</h2>
+                    <form>
+                        <select id="p7" name="pergunta7">
+                            <option value="">Selecione uma opção</option>
+                            <option value="Windows">Windows</option>
+                            <option value="Linux">Linux</option>
+                            <option value="macOS">macOS</option>
+                        </select>
+                    </form>
+                </section>
+            <!-- Pergunta 8: Imagem -->
+                <section>
+                <h2>Pergunta 8: Qual linguagem de programação é representada pelo logotipo abaixo?</h2>
+                <img src="assets/imageslogo.jpg" alt="Logotipo da linguagem de programação"><br>
+                <figcaption>Logotipo de uma linguagem de programação popular</figcaption>
+                <form>          
+                    <input type="text" id="p8" name="pergunta8" placeholder="Digite sua resposta...">
+                </form>
+                </section>
+            <!-- Tabela de Pontuação-->
+                <section> 
+                    <h2>Tabela de Pontuação</h2>
+                    <table border="1">
+                        <thead>
+                            <tr>
+                                <th>Pontuação</th>
+                                <th>Avaliação</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>>0-2</td>
+                                <td>Não desista! Continue estudando.</td>
+                            </tr>
+                            <tr>
+                                <td>>3-4</td>
+                                <td>Você está no caminho certo!</td>
+                            </tr>
+                            <tr>
+                                <td>>5-7</td>
+                                <td>Ótimo trabalho! Continue assim.</td>
+                            </tr>   
+                            <tr>
+                                <td>>8</td>
+                                <td>Excelente! Você é um verdadeiro expert em tecnologia!</td>
+                            </tr>   
+                            </tbody>
+                            <tfoot>
+                            <tr>
+                                <td colspan="2">Pontuação máxima: 8</td>
+                            </tfoot>                           
+                        </table>                   
+                </section>
+            <!-- Lista de Respostas-->
+                <section> 
+                    <h2>Gabarito do Quiz</h2>
+                    <details>
+                        <summary>Clique para ver o gabarito</summary>
+                        <ol>
+                            <li><strong>Pergunta 1:</strong> Mosaic</li>
+                            <li><strong>Pergunta 2:</strong> Hypertext Transfer Protocol</li>
+                            <li><strong>Pergunta 3:</strong> Exemplo: P@ssw0rd!2024</li>
+                            <li><strong>Pergunta 4:</strong> 4 de setembro de 1998</li>
+                            <li><strong>Pergunta 5:</strong> Python, JavaScript</li>
+                            <li><strong>Pergunta 6:</strong> Qualquer arquivo HTML válido</li>
+                            <li><strong>Pergunta 7:</strong> Linux</li>
+                            <li><strong>Pergunta 8:</strong> Python</li>
+                        </ol>
+                    </details>
+                </section>    
+            <!-- Formulário de Feedback -->
+                <section> 
+                    <h2>Formulário de Feedback</h2>
+                    <form>
+                        <fieldset>
+                            <legend>Deixe seu feedback sobre o quiz</legend>
+                            <label for="name" >Nome:</label><br>
+                            <input type="text" id="name" name="name"><br>
+                            <label for="email" >Email:</label><br>
+                            <input type="email" id="email" name="email"><br>
+                            <label for="comentarios">Comentários:</label><br>
+                            <textarea id="comentarios" name="comentarios" rows="4" cols="50" placeholder="Digite seu feedback aqui..."></textarea><br><br>
+                            <input type="submit" value="Enviar Feedback">
+                        </fieldset>
+                    </form>
+
+                </section>
     </main>
-        <footer></footer>
+        <footer>
+            <p>&copy; 2026 TechQuiz. Todos os direitos reservados.</p>
+            <p>Desenvolvido por <a href="ProjetoRodolfo/rodolfo.html" target="_blank">Rodolfo Franco</a></p>
+        </footer>
     </body>
 </html>
