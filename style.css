@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #3e88ce;
+    color: #0f0808;
+    line-height: 1.6;
+    font-family: 'Cinzel', serif;
+    font-weight: 600;
+}
+
+h1 {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 20px;
+}
+
+header {
+    background-color: #3180ca;
+    padding: 2rem;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+h2 {
+    color: #0a0606;
+    font-size: 1.2rem;
+
+}
+
+input[type="radio"], input[type="checkbox"] {
+    accent-color: #3f4e55;
+}
+
+input[type=text], input[type=password], input[type=email], textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 2px solid #271a1a;
+    border-radius: 5px;
+    outline: none;
+    background-color: #f0f0f0;
+}
+
+input::placeholder {
+    color: #888;
+}
+
+select {
+    cursor: pointer;
+    background-color: #f0f0f0;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+img {
+    width: 5rem;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #003b72;
+    color: #000000;
+    padding: 1rem;
+    text-align: center;
+}
+
+td {
+    color: #000000;
+    padding: 1rem;
+    text-align: center;
+}
+
+tfoot {
+    background-color: #003b72;
+    color: #000000;
+    padding: 1rem;
+    text-align: center;
+}
+
+details {
+    background-color: #003b72;
+    color: #000000;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 5px;
+}
+
+summary {
+    color: #000000; 
+    margin: 0.6rem;
+    cursor: pointer;
+}
+
+ol {
+    margin-left: 5rem;
+
+}
+
+ol li {
+    margin-bottom: 0.5rem;
+}
+
+fieldset {
+    border: 2px solid #271a1a;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+legend {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    padding: 0.2rem 0.5rem;
+    color: #000000;
+}
+
+textarea {
+    background-color: #f0f0f0;
+    color: #000000;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #271a1a;
+}
+
+button {
+    background-color: #003b72;
+    color: #000000;
+    padding: 0.5rem 3rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+footer {
+    background-color: #003b72;
+    color: #000000;
+    padding: 1rem;
+    text-align: center;
+}
+
+a {
+    color: #b33535;
+}
+.copyright {
+    color: #000000;  
+
+}
